@@ -5,9 +5,6 @@ let package = Package(
     targets: [
 
     Target(
-        name: "SilicaTests",
-        dependencies: [.Target(name: "Silica")]),
-    Target(
         name: "Silica")
 
     ],
